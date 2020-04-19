@@ -1,0 +1,687 @@
+@media only screen and (max-width: 600px) {
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /*#33df97 #2942ee*/
+  .content{
+    margin-right: 3%;
+    margin-left: 3%;
+
+  }
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 3rem;
+    margin-bottom: 1.25%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    padding-bottom: 13%
+  }
+
+  .inbetween{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    border-left: 0.2em solid #bdbdbd;
+    font-style: oblique;
+    font-size: 1.5rem;
+    padding-left: 3%;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .icons{
+    text-align: center;
+  }
+
+  .icons-contact{
+    font-size: 2.75rem;
+  }
+  .icons-contact i{
+    padding: 1.5625rem;
+    margin-bottom: 2rem;
+    margin-right: 1.875rem;
+  }
+
+  .fab{
+    border-radius: 50%;
+    background: linear-gradient(120deg, #ff9612ff, #de392bff, #de0061ff);
+
+  }
+  .fas{
+    background: linear-gradient(60deg, #3b5998, #d748f0);
+    border-radius: 50%;
+  }
+
+  .fa-facebook{
+    background: linear-gradient(60deg, #3b5998, #487ef0)
+  }
+
+  .fa-github{
+    background: linear-gradient(60deg, #181a1f, #404859);
+  }
+
+  .icons-contact a, .icons-contact a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  .icons-contact a i{
+    transition: all 1s ease;
+  }
+
+  .icons-contact a:hover i{
+    transform: scale(1.5);
+    transition: all 1s ease;
+
+  }
+
+  .here{
+    font-weight: bolder;
+    color:#d748f0;
+  }
+
+  .inbetween a, .inbetween a:visited{
+    text-decoration: none;
+  }
+
+  .inbetween a:hover{
+    color:orange;
+    transition-duration: 1s;
+  }
+
+  .copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /*#33df97 #2942ee*/
+  .content{
+    margin-right: 25%;
+    margin-left: 25%;
+
+  }
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    padding-bottom: 13%
+  }
+
+  .inbetween{
+    margin-top: 6%;
+    margin-bottom: 15%;
+    border-left: 0.2em solid #bdbdbd;
+    font-style: oblique;
+    font-size: 2rem;
+    padding-left: 3%;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .icons{
+    text-align: center;
+  }
+
+  .icons-contact{
+    font-size: 3.125rem;
+  }
+  .icons-contact i{
+    padding: 1.5625rem;
+    margin-right: 1.875rem;
+  }
+
+  .fab{
+    border-radius: 50%;
+    background: linear-gradient(120deg, #ff9612ff, #de392bff, #de0061ff);
+
+  }
+  .fas{
+    background: linear-gradient(60deg, #3b5998, #d748f0);
+    border-radius: 50%;
+  }
+
+  .fa-facebook{
+    background: linear-gradient(60deg, #3b5998, #487ef0)
+  }
+
+  .fa-github{
+    background: linear-gradient(60deg, #181a1f, #404859);
+  }
+
+  .icons-contact a, .icons-contact a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  .icons-contact a i{
+    transition: all 1s ease;
+  }
+
+  .icons-contact a:hover i{
+    transform: scale(1.5);
+    transition: all 1s ease;
+
+  }
+
+  .here{
+    font-weight: bolder;
+    color:#d748f0;
+  }
+
+  .inbetween a, .inbetween a:visited{
+    text-decoration: none;
+  }
+
+  .inbetween a:hover{
+    color:orange;
+    transition-duration: 1s;
+  }
+
+  .copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /*#33df97 #2942ee*/
+  .content{
+    margin-right: 25%;
+    margin-left: 25%;
+
+  }
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    padding-bottom: 13%
+  }
+
+  .inbetween{
+    margin-top: 6%;
+    margin-bottom: 15%;
+    border-left: 0.2em solid #bdbdbd;
+    font-style: oblique;
+    font-size: 2rem;
+    padding-left: 3%;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .icons{
+    text-align: center;
+  }
+
+  .icons-contact{
+    font-size: 3.125rem;
+  }
+  .icons-contact i{
+    padding: 1.5625rem;
+    margin-bottom: 1rem;
+    margin-right: 1.875rem;
+  }
+
+  .fab{
+    border-radius: 50%;
+    background: linear-gradient(120deg, #ff9612ff, #de392bff, #de0061ff);
+
+  }
+  .fas{
+    background: linear-gradient(60deg, #3b5998, #d748f0);
+    border-radius: 50%;
+  }
+
+  .fa-facebook{
+    background: linear-gradient(60deg, #3b5998, #487ef0)
+  }
+
+  .fa-github{
+    background: linear-gradient(60deg, #181a1f, #404859);
+  }
+
+  .icons-contact a, .icons-contact a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  .icons-contact a i{
+    transition: all 1s ease;
+  }
+
+  .icons-contact a:hover i{
+    transform: scale(1.5);
+    transition: all 1s ease;
+
+  }
+
+  .here{
+    font-weight: bolder;
+    color:#d748f0;
+  }
+
+  .inbetween a, .inbetween a:visited{
+    text-decoration: none;
+  }
+
+  .inbetween a:hover{
+    color:orange;
+    transition-duration: 1s;
+  }
+
+  .copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /*#33df97 #2942ee*/
+  .content{
+    margin-right: 25%;
+    margin-left: 25%;
+
+  }
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    padding-bottom: 13%
+  }
+
+  .inbetween{
+    margin-top: 6%;
+    margin-bottom: 15%;
+    border-left: 0.2em solid #bdbdbd;
+    font-style: oblique;
+    font-size: 2rem;
+    padding-left: 3%;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .icons{
+    text-align: center;
+  }
+
+  .icons-contact{
+    font-size: 3.125rem;
+  }
+  .icons-contact i{
+    padding: 1.5625rem;
+    margin-right: 1.875rem;
+  }
+
+  .fab{
+    border-radius: 50%;
+    background: linear-gradient(120deg, #ff9612ff, #de392bff, #de0061ff);
+
+  }
+  .fas{
+    background: linear-gradient(60deg, #3b5998, #d748f0);
+    border-radius: 50%;
+  }
+
+  .fa-facebook{
+    background: linear-gradient(60deg, #3b5998, #487ef0)
+  }
+
+  .fa-github{
+    background: linear-gradient(60deg, #181a1f, #404859);
+  }
+
+  .icons-contact a, .icons-contact a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  .icons-contact a i{
+    transition: all 1s ease;
+  }
+
+  .icons-contact a:hover i{
+    transform: scale(1.5);
+    transition: all 1s ease;
+
+  }
+
+  .here{
+    font-weight: bolder;
+    color:#d748f0;
+  }
+
+  .inbetween a, .inbetween a:visited{
+    text-decoration: none;
+  }
+
+  .inbetween a:hover{
+    color:orange;
+    transition-duration: 1s;
+  }
+
+  .copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /*#33df97 #2942ee*/
+  .content{
+    margin-right: 25%;
+    margin-left: 25%;
+
+  }
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    padding-bottom: 13%
+  }
+
+  .inbetween{
+    margin-top: 6%;
+    margin-bottom: 15%;
+    border-left: 0.2em solid #bdbdbd;
+    font-style: oblique;
+    font-size: 2rem;
+    padding-left: 3%;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .icons{
+    text-align: center;
+  }
+
+  .icons-contact{
+    font-size: 3.125rem;
+  }
+  .icons-contact i{
+    padding: 1.5625rem;
+    margin-right: 1.875rem;
+  }
+
+  .fab{
+    border-radius: 50%;
+    background: linear-gradient(120deg, #ff9612ff, #de392bff, #de0061ff);
+
+  }
+  .fas{
+    background: linear-gradient(60deg, #3b5998, #d748f0);
+    border-radius: 50%;
+  }
+
+  .fa-facebook{
+    background: linear-gradient(60deg, #3b5998, #487ef0)
+  }
+
+  .fa-github{
+    background: linear-gradient(60deg, #181a1f, #404859);
+  }
+
+  .icons-contact a, .icons-contact a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  .icons-contact a i{
+    transition: all 1s ease;
+  }
+
+  .icons-contact a:hover i{
+    transform: scale(1.5);
+    transition: all 1s ease;
+
+  }
+
+  .here{
+    font-weight: bolder;
+    color:#d748f0;
+  }
+
+  .inbetween a, .inbetween a:visited{
+    text-decoration: none;
+  }
+
+  .inbetween a:hover{
+    color:orange;
+    transition-duration: 1s;
+  }
+
+  .copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }

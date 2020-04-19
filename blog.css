@@ -1,0 +1,582 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 1200px) {
+  .content{
+    margin-right: 25%;
+    margin-left: 25%;
+
+  }
+
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  .subheadprime{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-bottom: 5%
+  }
+
+  .subheadsec{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #33df97;
+    margin-bottom: 2rem;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    margin-bottom:2%;
+  }
+
+  .posthead a, .posthead a:visited{
+    text-decoration: none;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #8f93a2;
+    font-size: 3.5rem;
+
+  }
+
+
+  .posthead a:hover{
+    border-bottom: 0.2rem solid purple;
+    transition-duration: 0.5s;
+
+  }
+
+  .datetime{
+    padding-left: 3%;
+    font-style: italic;
+    font-family:'Darker Grotesque', sans-serif;
+    font-size: 2rem
+  }
+
+  .iconclass{
+    margin-top: 10%;
+    font-size: 1.5rem;
+
+  }
+   i{
+     color: #a42cd4;
+     padding-right: 0.5%
+   }
+
+   i:hover{
+     color:orange;
+   }
+   .copyright{
+     text-align: center;
+     font-size: 1rem;
+     font-family: 'Roboto Condensed', sans-serif;
+   }
+}
+
+@media only screen and (min-width: 992px) {
+  .content{
+    margin-right: 25%;
+    margin-left: 25%;
+
+  }
+
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  .subheadprime{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-bottom: 5%
+  }
+
+  .subheadsec{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #33df97;
+    margin-bottom: 2rem;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    margin-bottom:2%;
+  }
+
+  .posthead a, .posthead a:visited{
+    text-decoration: none;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #8f93a2;
+    font-size: 3.5rem;
+
+  }
+
+
+  .posthead a:hover{
+    border-bottom: 0.2rem solid purple;
+    transition-duration: 0.5s;
+
+  }
+
+  .datetime{
+    padding-left: 3%;
+    font-style: italic;
+    font-family:'Darker Grotesque', sans-serif;
+    font-size: 2rem
+  }
+
+  .iconclass{
+    margin-top: 10%;
+    font-size: 1.5rem;
+
+  }
+   i{
+     color: #a42cd4;
+     padding-right: 0.5%
+   }
+
+   i:hover{
+     color:orange;
+   }
+   .copyright{
+     text-align: center;
+     font-size: 1rem;
+     font-family: 'Roboto Condensed', sans-serif;
+   }
+}
+
+
+@media only screen and (min-width: 760px) {
+  .content{
+    margin-right: 10;
+    margin-left: 10%;
+
+  }
+
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  .subheadprime{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-bottom: 5%
+  }
+
+  .subheadsec{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #33df97;
+    margin-bottom: 2rem;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    margin-bottom:2%;
+  }
+
+  .posthead a, .posthead a:visited{
+    text-decoration: none;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #8f93a2;
+    font-size: 3.5rem;
+
+  }
+
+
+  .posthead a:hover{
+    border-bottom: 0.2rem solid purple;
+    transition-duration: 0.5s;
+
+  }
+
+  .datetime{
+    padding-left: 3%;
+    font-style: italic;
+    font-family:'Darker Grotesque', sans-serif;
+    font-size: 2rem
+    display:block;
+  }
+
+  .iconclass{
+    margin-top: 8rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+   i{
+     color: #a42cd4;
+     padding-right: 0.5%
+   }
+
+   i:hover{
+     color:orange;
+   }
+   .copyright{
+     text-align: center;
+     font-size: 1rem;
+     font-family: 'Roboto Condensed', sans-serif;
+   }
+}
+
+
+@media only screen and (max-width:600px) {
+  .content{
+    margin-right: 3%;
+    margin-left: 3%;
+
+  }
+
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 7%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  .subheadprime{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-bottom: 8%
+  }
+
+  .subheadsec{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #33df97;
+    margin-bottom: 2rem;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+    margin-bottom: 3%;
+
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    margin-bottom:2%;
+  }
+
+  .posthead a, .posthead a:visited{
+    text-decoration: none;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #8f93a2;
+    font-size: 2rem;
+
+  }
+
+
+  .posthead a:hover{
+    border-bottom: 0.2rem solid purple;
+    transition-duration: 0.5s;
+
+  }
+
+  .datetime{
+    padding-left: 3%;
+    font-style: italic;
+    display: block;
+    font-family:'Darker Grotesque', sans-serif;
+    font-size: 1rem;
+  }
+
+  .iconclass{
+    margin-top: 20%;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+  }
+   i{
+     color: #a42cd4;
+     padding-right: 0.5%
+   }
+
+   i:hover{
+     color:orange;
+   }
+   .copyright{
+     text-align: center;
+     font-size: 1rem;
+     font-family: 'Roboto Condensed', sans-serif;
+   }
+}
+
+@media only screen and (min-width: 600px) {
+  .content{
+    margin-right: 25%;
+    margin-left: 25%;
+
+  }
+
+  body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0f111a;
+    color:#8f93a2;
+  }
+
+
+  .heading{
+    border-bottom: 2px solid #2942ee;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  .subheadprime{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-bottom: 5%
+  }
+
+  .subheadsec{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px solid #33df97;
+    margin-bottom: 2rem;
+  }
+
+  .navbar{
+    margin-top: 2%;
+    text-align: left;
+
+  }
+
+  .navbar a, .navbar a:visited{
+    text-decoration: none;
+    color: #6b736d;
+    padding-right:1.75rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+  .navbar a:hover{
+    color:orange;
+    transition-duration: 0.6s;
+  }
+  .posthead{
+    margin-bottom:2%;
+  }
+
+  .posthead a, .posthead a:visited{
+    text-decoration: none;
+    font-family:'Darker Grotesque', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #8f93a2;
+    font-size: 3.5rem;
+
+  }
+
+
+  .posthead a:hover{
+    border-bottom: 0.2rem solid purple;
+    transition-duration: 0.5s;
+
+  }
+
+  .datetime{
+    padding-left: 3%;
+    font-style: italic;
+    font-family:'Darker Grotesque', sans-serif;
+    font-size: 2rem
+  }
+
+  .iconclass{
+    margin-top: 10%;
+    font-size: 1.5rem;
+
+  }
+   i{
+     color: #a42cd4;
+     padding-right: 0.5%
+   }
+
+   i:hover{
+     color:orange;
+   }
+   .copyright{
+     text-align: center;
+     font-size: 1rem;
+     font-family: 'Roboto Condensed', sans-serif;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+/*#33df97 #2942ee*/

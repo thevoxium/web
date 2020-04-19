@@ -1,0 +1,15 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+  height: 100vh;
+  background-image: url(11333.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
